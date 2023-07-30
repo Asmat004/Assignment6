@@ -99,7 +99,7 @@ class _SignUpState extends State<SignUp> {
                 validator: (value) {
                   if (value!.isEmpty) {
                     return 'Please Enter Your Phone Number';
-                  } else if (!RegExp(r'^03\d{9}$').hasMatch(value)) {
+                  } else if (!RegExp(r'^923\d{9}$').hasMatch(value)) {
                     return 'Please Enter A Valid Number';
                   } else {
                     return null;
